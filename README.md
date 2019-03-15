@@ -16,7 +16,8 @@ https://www.postgresql.org/download/macosx/
 ### Installing
 - ```npm install```
 ### Seed demo data
-- ```npm run seed-all```
+- ```npm run seed-all```, or
+- seed individual tables: ```node_modules/.bin/sequelize db:seed --seed [seed file name, e.g. 20190202201451-demo-movie.js]```
 ### Build
 - Dev: ```npm run dev```
 - Production: ```npm run build```
